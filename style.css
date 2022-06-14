@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #484661;
+  text-align: center;
+}
+
+h2 {
+  color: #7a72e9;
+  font-family: 800px;
+  font-size: 24px;
+}
+
+p {
+  color: #484661d5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  align-content: center;
+}
+
+.profile_pic {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  margin: 20px 0px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  padding: 24px;
+  text-align: center;
+  margin: 24px auto;
+}
+
+.btn-blue {
+  background-color: #484661;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin-top: 24px;
+}
+
+.btn-blue:hover {
+  background-color: #4846614f;
+}
+
+div {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icons {
+  font-size: 32px;
+  color: #484661;
+  margin: 8px 24px;
+}
+
+.social-icons:hover {
+  color: #4846614f;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
